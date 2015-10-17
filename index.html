@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Benjamin Faught Portfolio</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<header class="masthead">
+  <svg version="1.1" id="Ebene_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" 
+	 width="600px" height="100px" viewBox="0 0 600 100">
+<style type="text/css">
+
+<![CDATA[
+
+	text {
+		filter: url(#filter);
+		fill: white;
+    	font-family: 'Share Tech Mono', sans-serif;
+    	font-size: 100px;
+		-webkit-font-smoothing: antialiased;
+		-moz-osx-font-smoothing: grayscale;
+     		}
+]]>
+</style>
+	<defs>
+
+		<filter id="filter">
+		    <feFlood flood-color="black" result="black" />
+		    <feFlood flood-color="red" result="flood1" />
+		    <feFlood flood-color="limegreen" result="flood2" />
+			<feOffset in="SourceGraphic" dx="3" dy="0" result="off1a"/>
+			<feOffset in="SourceGraphic" dx="2" dy="0" result="off1b"/>
+			<feOffset in="SourceGraphic" dx="-3" dy="0" result="off2a"/>
+			<feOffset in="SourceGraphic" dx="-2" dy="0" result="off2b"/>
+		    <feComposite in="flood1" in2="off1a" operator="in"  result="comp1" />
+		    <feComposite in="flood2" in2="off2a" operator="in" result="comp2" />
+
+ 		  	<feMerge x="0" width="100%" result="merge1">
+				<feMergeNode in = "comp1" />
+				<feMergeNode in = "off1b" />
+
+				<animate 
+					attributeName="y" 
+		    		id = "y"
+		    		dur ="4s"
+		    		
+		    		values = '104px; 104px; 30px; 105px; 30px; 2px; 2px; 50px; 40px; 105px; 105px; 20px; 6ßpx; 40px; 104px; 40px; 70px; 10px; 30px; 104px; 102px'
+
+		    		keyTimes = '0; 0.362; 0.368; 0.421; 0.440; 0.477; 0.518; 0.564; 0.593; 0.613; 0.644; 0.693; 0.721; 0.736; 0.772; 0.818; 0.844; 0.894; 0.925; 0.939; 1'
+
+		    		repeatCount = "indefinite" />
+ 
+				<animate attributeName="height" 
+		    		id = "h" 
+		    		dur ="4s"
+		    		
+		    		values = '10px; 0px; 10px; 30px; 50px; 0px; 10px; 0px; 0px; 0px; 10px; 50px; 40px; 0px; 0px; 0px; 40px; 30px; 10px; 0px; 50px'
+
+		    		keyTimes = '0; 0.362; 0.368; 0.421; 0.440; 0.477; 0.518; 0.564; 0.593; 0.613; 0.644; 0.693; 0.721; 0.736; 0.772; 0.818; 0.844; 0.894; 0.925; 0.939; 1'
+
+		    		repeatCount = "indefinite" />
+		    </feMerge>
+ 			
+
+ 			<feMerge x="0" width="100%" y="60px" height="65px" result="merge2">
+				<feMergeNode in = "comp2" />
+				<feMergeNode in = "off2b" />
+
+				<animate attributeName="y" 
+		    		id = "y"
+		    		dur ="4s"
+		    		values = '103px; 104px; 69px; 53px; 42px; 104px; 78px; 89px; 96px; 100px; 67px; 50px; 96px; 66px; 88px; 42px; 13px; 100px; 100px; 104px;' 
+
+		    		keyTimes = '0; 0.055; 0.100; 0.125; 0.159; 0.182; 0.202; 0.236; 0.268; 0.326; 0.357; 0.400; 0.408; 0.461; 0.493; 0.513; 0.548; 0.577; 0.613; 1'
+
+ 		    		repeatCount = "indefinite" />
+ 
+				<animate attributeName="height" 
+		    		id = "h"
+		    		dur = "4s"
+					
+					values = '0px; 0px; 0px; 16px; 16px; 12px; 12px; 0px; 0px; 5px; 10px; 22px; 33px; 11px; 0px; 0px; 10px'
+
+		    		keyTimes = '0; 0.055; 0.100; 0.125; 0.159; 0.182; 0.202; 0.236; 0.268; 0.326; 0.357; 0.400; 0.408; 0.461; 0.493; 0.513;  1'
+		    		 
+		    		repeatCount = "indefinite" />
+		    </feMerge>
+			
+		 	<feMerge>
+ 				<feMergeNode in="SourceGraphic" />	
+
+				<feMergeNode in="merge1" /> 
+ 			<feMergeNode in="merge2" />
+
+		    </feMerge>
+	    </filter>
+
+	</defs>
+<g>
+	<text x="0" y="85">Ben Faught </text>
+</g>
+</svg>
+<h3 class="masthead-title">Front End Web Developer</h3>
+</header>
+
+
+<div class="generalinfo">
+	<div class="intro">
+		<h1>ABOUT ME</h1>
+		<p>I am a Front End Web Developer with specific training from Thinkful living in New York City. I love clean and modern websites, blogs, photography, cycling, travel,  avant-garde and post-modern inspired music, jazz, and coffee.</p>
+		<p>Technology, education, and music are important to me. In this modern age we have to be multi-faceted in our approach to life; technology, education, and the arts play a big part in that.</p>
+	</div>
+	<div class="localle">
+	<h1>WHERE I'M FROM</h1>
+	<p>I am a newcomer to New York City by way of Richmond, VA and Nashville, TN with a short stint in Montreal, QC. </p>
+	<br>
+	</div>
+</div>
+
+
+<div class="portfolio">
+	<h1>MY WORK</h1>
+	<h3>(all projects were completed using)</h3>
+	<h2> HTML(5), CSS, JQUERY, JAVASCRIPT, AJAX </h2>
+	<p>-New York Times Hack-</p>
+		<img src="images/NYTIMESHACK.png">
+	<br>
+	<br>
+	<br>	
+	<br>
+	<a class="bodylink" href="http://benjaminifaught.github.io/jquery-streetfighter/">-Streetfighter-</a>
+	<br>
+	<br>
+		<img class="karma" src="images/FIGHT.png">
+	<br>
+	<br>
+	<br>	
+	<br>
+	<a class="bodylink" href="http://benjaminifaught.github.io/shopping-list/">-Shopping List-</a>
+	<br>
+	<br>
+		<img class="karma" src="images/LIST.png">
+	<br>
+	<br>
+	<br>	
+	<br>
+	<a class="bodylink" href="http://benjaminifaught.github.io/fizzbuzz/">-Fizz Buzz-</a>
+	<br>
+	<br>
+		<img class="karma" src="images/FIZZ.png">
+	<br>	
+	<br>
+	<br>	
+	<br>
+	<a class="bodylink" href="http://benjaminifaught.github.io/startup-landing-page-clone/">-Karma Landing Page Clone-</a>
+	<br>
+	<br>
+		<img class="karma" src="images/KARMA.png">
+	<br>
+	<br>
+</div>
+
+
+<div class="imagefiller"></div>
+
+
+<div class="dreamjob"> 
+	<h1>MY DREAM JOB</h1>
+	<p>My dream job would be working and collaborating with a team of people to create clean and efficient web sites focused on design, function, and performance. I would also like to work internationally with musicians and artists to create media that represents their products.</p>
+</div>
+<div class="thingsido">
+	<div class="hobbies">
+		<h1>HOBBIES</h1>
+		<p>My hobbies include making music, cycling, travelling, VCU Basketball, and learning new skills.  I'm always working on something different!</p>
+		<p>Below is my soundcloud page where I post music that I make for fun. Feel free to take a listen and share with your friends!</p>
+	</div>
+	<div class="soundcloud">
+		<iframe width="50%" height="400" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/users/12064602&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true"></iframe>
+	</div>
+</div>
+
+
+<footer>
+	<h1>contact</h1>
+	<div class="contact">
+		<a class="contactlink" href="https://github.com/benjaminifaught">GitHub</a>
+		<a class="contactlink" href="https://www.linkedin.com/profile/view?id=AAIAAAd8NYwBoRUXoBPi8mD_Db4U8iET5y_cAP0&trk=nav_responsive_tab_profile">Linkedin</a>
+		<a class="contactlink" href="https://instagram.com/faughtnessmonster/">Instagram</a>
+		<a class="contactlink" href="https://twitter.com/wstwrdxpnsn">Twitter</a>
+	</div>
+</footer>
+</body>
+</html>

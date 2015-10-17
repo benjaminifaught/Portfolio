@@ -1,0 +1,107 @@
+header {
+	background-image: url('../images/BENFACE.jpg');
+	background-position: bottom;
+	background-attachment: fixed;
+	background-size: cover;
+	padding: 17em;
+}
+
+body {
+	font-family: sans-serif;
+}
+
+.masthead-title {
+	color: white;
+	text-align: right;
+}
+
+svg {
+  width: 800px;
+  height: 150px;
+  display: block;
+  position: relative;
+  overflow: hidden; 
+  margin: 0 auto;
+  background: none;
+}
+
+h1 {
+	text-align:center;
+	font-size: 4em;
+	font-family: monospace;
+}
+
+h2 {
+	text-align: center;
+	font-size: 2em;
+	font-family: monospace;
+}
+h3 {
+	text-align: center;
+	font-size: 1em;
+	font-family: monospace;
+}
+.soundcloud {
+	text-align: center;
+}
+
+.intro, .localle, .portfolio, .dreamjob, .hobbies, .soundcloud {
+	margin-left: 14em;
+	margin-right: 14em;
+}
+
+.imagefiller {
+	background-image: url('../images/BENFACE.jpg');
+	background-position: bottom;
+	background-attachment: fixed;
+	background-size: cover;
+	padding: 8em;
+}
+
+footer {
+	background-image: url('../images/BENFACE.jpg');
+	background-position: bottom;
+	background-attachment: fixed;
+	background-size: cover;
+	padding: 17em;
+	color: white;
+}
+
+.contact {
+	color: white;
+	text-align: center;
+}
+
+.contactlink {
+	color:white;
+	text-align: center;
+}
+
+p, a {
+	font-size: 1.75em;
+}
+
+.bodylink {
+	color: orange;
+	text-decoration: none;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:active {
+    text-decoration: underline;
+}
+
+img {
+	width: 50em;
+}
